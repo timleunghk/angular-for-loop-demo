@@ -1,0 +1,30 @@
+/* src/app/components/item-list/item-list.component.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .loading, .no-items {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  .item-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .item-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2a6496;
+  }
